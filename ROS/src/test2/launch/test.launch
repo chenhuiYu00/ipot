@@ -1,0 +1,8 @@
+<launch>
+
+  <include file="$(find smb_gazebo)/launch/smb_gazebo.launch">
+   </include>
+
+  <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="keycontrol" output="screen" />
+ 
+ </launch>

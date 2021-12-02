@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+
+  <include file="$(find smb_gazebo)/launch/smb_gazebo.launch"  value="true" />
+
+  <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="keycontrol" output="screen" />
+   
+
+  <node name="listener_node" pkg="smb_highlevel_controller" type="listener_node" output="screen"/>
+  
+
+  <node name="rviz" pkg="rviz" type="rviz" args="~/usetest/ROS/src/smb_common_v2/smb_gazebo/config/user.rviz" required="true" />
+ 
+
+  <rosparam command="load"file="$(find package)/config/set.yaml" />
+  
+</launch>
+
+

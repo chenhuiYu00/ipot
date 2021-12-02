@@ -1,0 +1,1 @@
+/bin/g++ -g -rdynamic CMakeFiles/control_node.dir/src/publish_node.cpp.o -o devel/lib/smb_highlevel_controller/control_node   -L/usr/local/lib 

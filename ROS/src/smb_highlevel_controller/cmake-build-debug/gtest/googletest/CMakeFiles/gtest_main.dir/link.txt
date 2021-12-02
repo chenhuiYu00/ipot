@@ -1,0 +1,1 @@
+/bin/g++ -fPIC -g -shared -Wl,-soname,libgtest_maind.so -o ../lib/libgtest_maind.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/yuchen/usetest/ROS/src/smb_highlevel_controller/cmake-build-debug/gtest/lib ../lib/libgtestd.so -lpthread 

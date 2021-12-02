@@ -1,0 +1,8 @@
+prefix=/home/yuchen/usetest/ROS/src/smb_highlevel_controller/cmake-build-debug/devel
+
+Name: smb_highlevel_controller
+Description: Description of smb_highlevel_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

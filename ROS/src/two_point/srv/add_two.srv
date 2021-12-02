@@ -1,0 +1,5 @@
+int32 i1
+int32 i2
+int32 i3
+---
+int32 result
